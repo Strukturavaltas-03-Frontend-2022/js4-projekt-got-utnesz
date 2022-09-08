@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "GOT";
+  src: url("./fonts/GOT.ttf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "GOT";
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  padding: auto;
+  margin: auto;
+}
+
+.characters {
+  position: relative;
+  background-image: url("./assets/site/mapblue.jpg");
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 75%;
+}
+
+.details {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #4f4f4f;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0 0 0;
+  right: 0;
+  width: 25%;
+}
+
+.searchButton {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  width: 2rem;
+  height: 2rem;
+  left: 30px;
+  bottom: 30px;
+}
+
+.searchField {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  height: 2rem;
+  right: 30px;
+  bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
