@@ -128,7 +128,26 @@
   bottom: 26px;
   background-color: #4f4f4f;
   border: none;
+  cursor: pointer;
 }
+
+.searchButton:hover {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: 36px;
+  left: 30px;
+  bottom: 26px;
+  background-color: #4f4f4f;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 20px 10px #808080;
+}
+
+
+
 
 .fa-caret-square-o-right {
   width: 40px;
@@ -136,6 +155,8 @@
   font-size: 2rem;
   color: #808080;
 }
+
+
 
 .searchField {
   position: absolute;
