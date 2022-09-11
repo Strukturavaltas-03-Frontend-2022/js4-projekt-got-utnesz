@@ -170,6 +170,7 @@
   },
   {
     "name": "Stannis Baratheon",
+    "dead": true,
     "portrait": "assets/stannis.png",
     "picture": "assets/pictures/stannis_baratheon.jpg",
     "house": "baratheon",
